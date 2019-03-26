@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E74FDA1F-436C-4191-BF18-34962927F6D7}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionInfo.cs = SolutionInfo.cs
+		VersionInfo.cs = VersionInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inceptum.AppServer.Sdk.Messaging", "Inceptum.AppServer.Sdk.Messaging\Inceptum.AppServer.Sdk.Messaging.csproj", "{C799E777-37B9-46D6-95C2-2A7F44A91FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inceptum.AppServer.Sdk.Messaging.Tests", "Inceptum.AppServer.Sdk.Messaging.Tests\Inceptum.AppServer.Sdk.Messaging.Tests.csproj", "{B5AE7539-A60A-4EC4-9B41-44B78EF664E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C799E777-37B9-46D6-95C2-2A7F44A91FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C799E777-37B9-46D6-95C2-2A7F44A91FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C799E777-37B9-46D6-95C2-2A7F44A91FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C799E777-37B9-46D6-95C2-2A7F44A91FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5AE7539-A60A-4EC4-9B41-44B78EF664E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5AE7539-A60A-4EC4-9B41-44B78EF664E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5AE7539-A60A-4EC4-9B41-44B78EF664E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5AE7539-A60A-4EC4-9B41-44B78EF664E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
